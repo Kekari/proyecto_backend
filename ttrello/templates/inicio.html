@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Proyectos | Organiza tu equipo</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">TaskFlow</div>
+        <nav>
+            <a href="#caracteristicas">Características</a>
+            <a href="#precios">Precios</a>
+            <a href="#login" class="btn-login">Iniciar Sesión</a>
+            <a href="#registro" class="btn-primary">Comenzar Gratis</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Lleva tus proyectos al siguiente nivel</h1>
+                <p>Una plataforma intuitiva para gestionar tareas, colaborar con tu equipo y alcanzar tus objetivos empresariales con estilo y simplicidad.</p>
+                <a href="#registro" class="btn-primary btn-large">Crea tu primer tablero</a>
+            </div>
+            <div class="hero-image">
+                <div class="mockup-board">
+                    <div class="column">
+                        <div class="card"></div>
+                        <div class="card"></div>
+                    </div>
+                    <div class="column">
+                        <div class="card"></div>
+                    </div>
+                    <div class="column">
+                        <div class="card"></div>
+                        <div class="card"></div>
+                        <div class="card"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="caracteristicas" class="features">
+            <h2>Diseñado para la productividad</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Tableros Visuales</h3>
+                    <p>Organiza todo con el sistema Kanban. Mueve tarjetas, asigna responsables y define fechas límite fácilmente.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Colaboración en Tiempo Real</h3>
+                    <p>Mantén a todo el equipo sincronizado, sin importar dónde se encuentren trabajando.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Automatización</h3>
+                    <p>Reduce el trabajo manual configurando reglas personalizadas para tareas repetitivas.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TaskFlow. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
