@@ -5,12 +5,11 @@
 **1. Clonar el repositorio**
 Descarga el código fuente e ingresa a la carpeta del proyecto:
 ```bash
-git clone [https://github.com/tu-usuario/proyecto_backend.git](https://github.com/tu-usuario/proyecto_backend.git)
 cd proyecto_backend
 ```
 
 **2. Crear el entorno virtual**
-Genera un entorno aislado para manejar las dependencias sin afectar tu sistema:
+Genera un entorno aislado para manejar las dependencias sin afectar al sistema:
 ```bash
 python -m venv ambvirt
 ```
