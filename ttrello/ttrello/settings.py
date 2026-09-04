@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-sd01x4+t16ba$g1r9#-$2zt3h#x*@b_wl=6-rtk5cq^n7vyaex'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = False #False para que no se muestre el error con muestra de datos sensibles
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost'] # para que nos identifique como el host permitido en produccion
 
 
 # Application definition
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'ttrello.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],
+        'DIRS': [BASE_DIR / 'templates'], #Para que reconozca la carpeta templates en produccion
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -117,7 +117,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / 'static']
-STATIC_ROOT = BASE_DIR / 'staticfiles' # pa q reconozca los archivos estaticos en produccion
+STATIC_ROOT = BASE_DIR / 'staticfiles' # pa q reconozca los archivos estaticos en produccion (css)
 
 # Email
 # https://docs.djangoproject.com/en/6.1/topics/email/#topic-email-configuration
