@@ -32,4 +32,10 @@ Ingresa a la carpeta principal de la aplicación y arranca el servidor de desarr
 cd ttrello
 python manage.py runserver
 ```
+**6. Instalar requirements**
+Instala las librerias utilizadas
+```bash 
+pip install -r requirements.txt
+```
+
 *(El proyecto estará disponible en http://127.0.0.1:8000/)*
